@@ -1,0 +1,20 @@
+// fontes
+
+$font-Karla: 'Karla',
+sans-serif;
+$font-DM: 'DM Serif Display',
+serif;
+
+// tamanho fonte
+
+@function rem($size) {
+  @return $size / 16 * 1rem;
+}
+
+// cores
+
+$cor-violeta: hsl(256, 26%, 20%);
+$cor-violeta-escuro: hsl(270, 9%, 17%);
+$cor-violeta-claro: hsl(273, 4%, 51%);
+$cor-azul : hsl(216, 30%, 68%);
+$cor-branco: hsl(0, 0%, 98%);
